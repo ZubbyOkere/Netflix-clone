@@ -38,7 +38,7 @@ const Navbaar = () => {
           </Link>
         </div>
       ) : (
-        <div>
+        <div className='flex justify-between items-center'>
           <Link to={'/login'}>
             <button className='text-white pr-4'>Sign In</button>
           </Link>
